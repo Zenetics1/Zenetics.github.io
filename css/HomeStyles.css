@@ -18,12 +18,11 @@ nav ul{
     align-items: center;
 }
 nav li{
-    height: 75px;
+    height: 95px;
 }
 nav a{
     height: 100%;
     padding: 0px 25px;
-    margin-left: 15px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -32,7 +31,6 @@ nav a{
 }
 nav li:first-child{
     margin-right: auto;
-    align-items: start;
 }
 .sidebar{
     position: fixed;
@@ -51,45 +49,43 @@ nav li:first-child{
 }
 .logo
 {   
- color: #cc8f00;
- font-family:monospace;
- font-weight: bold;
- font-style: italic;
- font-size: 2.5em;
- align-items: center;
-}
-#imglo{
-    height:65px;
-    width: 80px;   
-    margin-left: -2rem;  
+    color: #cc8f00;
+    font-family:monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.5em;
+    align-items: center;
+    text-align: left;
 }
 body{
     min-height: 100vh;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("/img/webtestimg.jpg");
+    background-image: url("/img/website.png");
 }
-
-.main{
+.hero-left{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 .discript{
-    margin-top: 15rem;
+    position: relative;
+    left: 90px;
+    top: 200px;
     text-align: left;
     font-size: 1.5rem;
-    margin-left: 3rem;
     color: aliceblue;
     display: grid;
     justify-content: center;
 }
 .discript h3 span{
+    font-size: 1em;
     color: burlywood;
 }
 .discript p{
-    font-size: .8em;
+    margin-top: .5em;
+    font-size: .9em;
 }
 nav a:hover{
     text-decoration: underline;
@@ -101,7 +97,7 @@ nav a:active{
 .menu-button{
     display: none;
 }
-@media(max-width:800px){
+@media screen and (max-width:800px){
     .hideOnMobile{
         display: none;
     }
@@ -109,9 +105,8 @@ nav a:active{
         display: block;
     }
 }
-@media(max-width: 400px){
+@media screen and (max-width: 400px){
     .sidebar{
         width: 100%;
     }
-    
 }

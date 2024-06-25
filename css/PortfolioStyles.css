@@ -18,12 +18,11 @@ nav ul{
     align-items: center;
 }
 nav li{
-    height: 75px;
+    height: 95px;
 }
 nav a{
     height: 100%;
     padding: 0px 25px;
-    margin-left: 15px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -32,7 +31,6 @@ nav a{
 }
 nav li:first-child{
     margin-right: auto;
-    align-items: start;
 }
 .sidebar{
     position: fixed;
