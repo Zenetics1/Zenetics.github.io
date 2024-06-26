@@ -16,6 +16,8 @@ nav ul{
     display: flex;
     justify-content: end;
     align-items: center;
+}
+nav li{
     height: 95px;
 }
 nav a{
@@ -27,7 +29,7 @@ nav a{
     color: #000;
     font-size: 1.2em;
 }
-nav li:not(:first-child){
+nav .mainbar li:not(:first-child){
     position: relative;
     right: 80px;
 }
@@ -41,7 +43,7 @@ nav li:first-child{
     height: 100vh;
     width: 300px;
     z-index: 999;
-    background-color: transparent;
+    background-color: aliceblue;
     backdrop-filter: blur(10px);
     box-shadow: -5px 0 10px rgba(0 , 0 , 0 ,0.5);
     display: none;
@@ -79,7 +81,7 @@ body{
     font-size: 1.5rem;
     color: aliceblue;
     display: grid;
-    justify-content: center;
+    align-self: center;
     width: 50rem;
 }
 .discript h3 span{
@@ -100,7 +102,7 @@ nav a:active{
 .menu-button{
     display: none;
 }
-@media screen and (max-width:800px){
+@media (max-width:900px){
     .hideOnMobile{
         display: none;
     }
@@ -112,13 +114,44 @@ nav a:active{
     }
     .discript{
         position: relative;
-        left: 15px;
+        left: 150px;
+        text-align: left;
+        font-size: 1.5rem;
+        color: aliceblue;
+        display: grid;
+        align-self: center;
+        width: 37rem;
+    }
+    .logo
+    {   
+        color: #cc8f00;
+        font-family:monospace;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 2.5em;
+        align-items: center;
+        text-align: left;
+    }
+}
+@media (max-width:520px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        position: relative;
+        left: 0;
+        size: 100%;
+        display: block;
+    }
+    .discript{
+        position: relative;
+        align-self: center;
+        left: 45px;
         bottom: 50px;
         text-align: center;
         font-size: 1.5rem;
         color: aliceblue;
         display: grid;
-        justify-content: center;
         width: 25rem;
     }
     .logo
