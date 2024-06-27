@@ -55,6 +55,11 @@ nav li:first-child{
     align-items: flex-start;
     justify-content: flex-start;
 }
+nav .sidebar li:first-child
+{
+    margin: 0;
+    padding: 0;
+}
 .logo
 {   
     color: #cc8f00;
