@@ -35,6 +35,10 @@ nav .navbar li:not(:first-child){
 }
 nav li:first-child{
     margin-right: auto;
+    padding: 0px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .sidebar{
     position: fixed;
@@ -105,7 +109,7 @@ nav a:active{
 .menu-button{
     display: none;
 }
-@media (max-width:900px){
+@media screen and (max-width:800px){
     .hideOnMobile{
         display: none;
     }
@@ -126,7 +130,7 @@ nav a:active{
         width: 75%;
     }
 }
-@media (max-width: 520px){
+@media screen and (max-width: 520px){
     .hideOnMobile{
         display: none;
     }
@@ -137,13 +141,13 @@ nav a:active{
         display: block;
     }
     .discript{
+        display: grid;
         position: absolute;
         transform: translate(13%, 20vh);
         text-align: center;
         margin: 0;
         font-size: 1.5rem;
         color: aliceblue;
-        display: grid;
         width: 80%;
     }
 }
