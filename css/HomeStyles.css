@@ -27,11 +27,13 @@ nav a{
     align-items: center;
     justify-content: center;
     color: #000;
+    font-weight: bolder;
     font-size: 1.2em;
 }
 nav .navbar li:not(:first-child){
     position: relative;
     right: 80px;
+    animation: fadeIn 4s;
 }
 nav li:first-child{
     margin-right: auto;
@@ -39,6 +41,7 @@ nav li:first-child{
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: fadeIn 4s;
 }
 .sidebar{
     position: fixed;
@@ -87,14 +90,15 @@ body{
     width: 100%;
 }
 .discript{
+    display: grid;
     position: absolute;
     transform: translate(10%, 25vh);
     text-align: left;
     margin: 0;
     font-size: 1.5rem;
     color: aliceblue;
-    display: grid;
     width: 50%;
+    animation: fadeIn 2s;
 }
 .discript h3 span{
     font-size: 1em;
@@ -155,4 +159,77 @@ nav a:active{
         color: aliceblue;
         width: 80%;
     }
+}
+
+.animate {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.animate--infinite{
+    animation-iteration-count: infinite;
+}
+.animate--delay-1s{
+    animation-delay: 1s;
+}
+.animate--fast{
+    animation-duration: .8s;
+}
+.animate--slow{
+    animation-duration: 2s;
+}
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.slideInLeft{
+    animation-name: slideInLeft;
+    animation-timing-function: ease-in;
+}
+
+@keyframes slideInRight{
+    from{
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.slideInRight{
+    animation-name: slideInRight;
+    animation-timing-function: ease-in;
+}
+
+@keyframes slideInUp{
+    from{
+        transform: translateY(200px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.slideInUp{
+    animation-name: slideInUp;
+    animation-timing-function: ease-in;
+}
+
+@keyframes slideInDown{
+    from{
+        transform: translateY(-20px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.slideInDown{
+    animation-name: slideInDown;
+    animation-timing-function: ease-in;
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
