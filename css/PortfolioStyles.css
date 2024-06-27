@@ -93,6 +93,8 @@ body{
     display: grid;
     position: absolute;
     justify-self: left;
+    top: 30%;
+    left: 6rem;
     margin: 0;
     font-size: 1.2rem;
     color: aliceblue;
@@ -130,7 +132,7 @@ nav a:active{
     }
     .vid1{
         justify-self: center;
-        top: 30%;
+        left: 7rem;
         height: 300px;
         width: 600px;
     }
@@ -162,6 +164,7 @@ nav a:active{
     }
     .vid1{
         justify-self: center;
+        left: 3rem;
         top: 25%;
         height: 20%;
         width: 80%;
