@@ -89,29 +89,25 @@ body{
     width: 100%;
 }
 .title{
-    position: relative;
     text-align: center;
-    font-size: 3rem;
+    font-size: 7vh;
     color: aliceblue;
     padding-top: 30px;
     animation: fadeIn 5s;
 }
 .vid1{
-    position: absolute;
-    justify-self: left;
-    left: 5%;
-    top: 30%;
-    margin: 0;
-    font-size: 1.2rem;
+    position: relative;
+    left: 13%;
+    top: 5%;
     height: 450px;
-    width: 800px;
+    width: 90%;
     animation: fadeIn 4s;
 }
 .discript{
-    position: absolute;
-    transform: translate(105vh,20vh);
+    position: relative;
+    transform: translate(10%,20vh);
     text-align: right;
-    width: 800px;
+    width: 85%;
     margin: 0;
     font-size: 1.5rem; 
     color: aliceblue;
@@ -137,16 +133,23 @@ nav a:active{
         size: 100%;
         display: block;
     }
+    .title{
+        text-align: center;
+        font-size: 5.5vh;
+        color: aliceblue;
+        padding-top: 30px;
+        animation: fadeIn 5s;
+    }
     .vid1{
-        position: absolute;
+        position: relative;
         left: 13%;
-        height: 40%;
-        width: 75%;
+        top: 5%;
+        height: 40vh;
+        width: 170%;
     }
     .discript{
-        display: grid;
         position: absolute;
-        transform: translate(13%, 46vh);
+        transform: translate(13%, 48vh);
         text-align: center;
         margin: 0;
         font-size: 1.2rem;
@@ -170,15 +173,16 @@ nav a:active{
         padding-top: 30px;
     }
     .vid1{
-        top: 25%;
+        position: relative;
         left: 13%;
-        height: 25%;
-        width: 75%;
+        top: 5%;
+        height: 25vh;
+        width: 170%;
     }
     .discript{
         display: grid;
         position: absolute;
-        transform: translate(13%, 30vh);
+        transform: translate(13%, 32vh);
         text-align: center;
         margin: 0;
         font-size: 1.2rem;
