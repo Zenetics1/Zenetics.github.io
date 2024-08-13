@@ -88,7 +88,7 @@ body{
     z-index: 1;
     width: 100%;
 }
-.title{
+.header{
     text-align: center;
     font-size: 7vh;
     color: aliceblue;
@@ -103,7 +103,7 @@ body{
     width: 90%;
     animation: fadeIn 4s;
 }
-.discript{
+.discript1{
     position: relative;
     transform: translate(10%,20vh);
     text-align: right;
@@ -112,6 +112,24 @@ body{
     font-size: 1.5rem; 
     color: aliceblue;
     animation: fadeIn 4s;
+}
+.vid2{
+    position: relative;
+    left: 13%;
+    top: 10%;
+    height: 450px;
+    width: 90%;
+    animation: fadeIn 5s;
+}
+.discript2{
+    position: relative;
+    transform: translate(10%,16vh);
+    text-align: right;
+    width: 85%;
+    margin: 0;
+    font-size: 1.5rem; 
+    color: aliceblue;
+    animation: fadeIn 5s;
 }
 nav a:hover{
     text-decoration: underline;
@@ -147,9 +165,25 @@ nav a:active{
         height: 40vh;
         width: 170%;
     }
-    .discript{
+    .discript1{
         position: absolute;
         transform: translate(13%, 48vh);
+        text-align: center;
+        margin: 0;
+        font-size: 1.2rem;
+        color: aliceblue;
+        width: 80%;
+    }
+    .vid2{
+        position: relative;
+        left: -87%;
+        top: 70%;
+        height: 40vh;
+        width: 170%;
+    }
+    .discript2{
+        position: absolute;
+        transform: translate(13%, 113vh);
         text-align: center;
         margin: 0;
         font-size: 1.2rem;
@@ -167,7 +201,7 @@ nav a:active{
         size: 100%;
         display: block;
     }
-    .title{
+    .header{
         font-size: 2rem;
         color: aliceblue;
         padding-top: 30px;
@@ -179,10 +213,26 @@ nav a:active{
         height: 25vh;
         width: 170%;
     }
-    .discript{
+    .discript1{
         display: grid;
         position: absolute;
         transform: translate(13%, 32vh);
+        text-align: center;
+        margin: 0;
+        font-size: 1.2rem;
+        color: aliceblue;
+        width: 80%;
+    }
+    .vid2{
+        position: relative;
+        left: -87%;
+        top: 63%;
+        height: 40vh;
+        width: 170%;
+    }
+    .discript2{
+        position: absolute;
+        transform: translate(13%, 104vh);
         text-align: center;
         margin: 0;
         font-size: 1.2rem;
