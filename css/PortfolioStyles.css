@@ -105,7 +105,7 @@ body{
 }
 .discript1{
     position: relative;
-    transform: translate(10%,20vh);
+    transform: translate(10%,18vh);
     text-align: right;
     width: 85%;
     margin: 0;
@@ -116,14 +116,32 @@ body{
 .vid2{
     position: relative;
     left: 13%;
-    top: 10%;
+    top: 15%;
     height: 450px;
     width: 90%;
     animation: fadeIn 5s;
 }
 .discript2{
     position: relative;
-    transform: translate(10%,16vh);
+    transform: translate(10%,18vh);
+    text-align: right;
+    width: 85%;
+    margin: 0;
+    font-size: 1.5rem; 
+    color: aliceblue;
+    animation: fadeIn 5s;
+}
+.vid3{
+    position: relative;
+    left: 13%;
+    top: 25%;
+    height: 450px;
+    width: 90%;
+    animation: fadeIn 5s;
+}
+.discript3{
+    position: relative;
+    transform: translate(10%,25vh);
     text-align: right;
     width: 85%;
     margin: 0;
@@ -160,14 +178,14 @@ nav a:active{
     }
     .vid1{
         position: relative;
-        left: 13%;
+        left: 15%;
         top: 5%;
         height: 40vh;
         width: 170%;
     }
     .discript1{
         position: absolute;
-        transform: translate(13%, 48vh);
+        transform: translate(13%, 46vh);
         text-align: center;
         margin: 0;
         font-size: 1.2rem;
@@ -176,16 +194,33 @@ nav a:active{
     }
     .vid2{
         position: relative;
-        left: -87%;
-        top: 70%;
+        left: -85%;
+        top: 135%;
         height: 40vh;
         width: 170%;
     }
     .discript2{
         position: absolute;
-        transform: translate(13%, 113vh);
+        transform: translate(13%, 111vh);
         text-align: center;
         margin: 0;
+        font-size: 1.2rem;
+        color: aliceblue;
+        width: 80%;
+    }
+    .vid3{
+        position: relative;
+        left: 13%;
+        top: 180%;
+        height: 40vh;
+        width: 170%;
+    }
+    .discript3{
+        position: absolute;
+        transform: translate(13%, 183vh);
+        text-align: center;
+        margin: 0;
+        padding-bottom: 8vh;
         font-size: 1.2rem;
         color: aliceblue;
         width: 80%;
@@ -208,15 +243,15 @@ nav a:active{
     }
     .vid1{
         position: relative;
-        left: 13%;
+        left: 15%;
         top: 5%;
-        height: 25vh;
+        height: 40vh;
         width: 170%;
     }
     .discript1{
         display: grid;
         position: absolute;
-        transform: translate(13%, 32vh);
+        transform: translate(13%, 45vh);
         text-align: center;
         margin: 0;
         font-size: 1.2rem;
@@ -225,14 +260,30 @@ nav a:active{
     }
     .vid2{
         position: relative;
-        left: -87%;
-        top: 63%;
+        left: -85%;
+        top: 148%;
         height: 40vh;
         width: 170%;
     }
     .discript2{
         position: absolute;
-        transform: translate(13%, 104vh);
+        transform: translate(13%, 115vh);
+        text-align: center;
+        margin: 0;
+        font-size: 1.2rem;
+        color: aliceblue;
+        width: 80%;
+    }
+    .vid3{
+        position: relative;
+        left: 15%;
+        top: 205%;
+        height: 40vh;
+        width: 170%;
+    }
+    .discript3{
+        position: absolute;
+        transform: translate(13%, 195vh);
         text-align: center;
         margin: 0;
         font-size: 1.2rem;
