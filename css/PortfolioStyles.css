@@ -149,6 +149,24 @@ body{
     color: aliceblue;
     animation: fadeIn 5s;
 }
+.vid4{
+    position: relative;
+    left: 13%;
+    top: 45%;
+    height: 450px;
+    width: 90%;
+    animation: fadeIn 5s;
+}
+.discript4{
+    position: relative;
+    transform: translate(10%,30vh);
+    text-align: right;
+    width: 85%;
+    margin: 0;
+    font-size: 1.5rem; 
+    color: aliceblue;
+    animation: fadeIn 5s;
+}
 nav a:hover{
     text-decoration: underline;
     font-weight: bold;
@@ -195,13 +213,13 @@ nav a:active{
     .vid2{
         position: relative;
         left: -85%;
-        top: 135%;
+        top: 125%;
         height: 40vh;
         width: 170%;
     }
     .discript2{
         position: absolute;
-        transform: translate(13%, 111vh);
+        transform: translate(13%, 106vh);
         text-align: center;
         margin: 0;
         font-size: 1.2rem;
@@ -211,13 +229,30 @@ nav a:active{
     .vid3{
         position: relative;
         left: 13%;
-        top: 180%;
+        top: 155%;
         height: 40vh;
         width: 170%;
     }
     .discript3{
         position: absolute;
-        transform: translate(13%, 183vh);
+        transform: translate(13%, 170vh);
+        text-align: center;
+        margin: 0;
+        padding-bottom: 8vh;
+        font-size: 1.2rem;
+        color: aliceblue;
+        width: 80%;
+    }
+    .vid4{
+        position: relative;
+        left: -85%;
+        top: 282%;
+        height: 40vh;
+        width: 170%;
+    }
+    .discript4{
+        position: absolute;
+        transform: translate(13%, 235vh);
         text-align: center;
         margin: 0;
         padding-bottom: 8vh;
@@ -261,13 +296,13 @@ nav a:active{
     .vid2{
         position: relative;
         left: -85%;
-        top: 148%;
+        top: 138%;
         height: 40vh;
         width: 170%;
     }
     .discript2{
         position: absolute;
-        transform: translate(13%, 115vh);
+        transform: translate(13%, 110vh);
         text-align: center;
         margin: 0;
         font-size: 1.2rem;
@@ -277,13 +312,29 @@ nav a:active{
     .vid3{
         position: relative;
         left: 15%;
-        top: 205%;
+        top: 180%;
         height: 40vh;
         width: 170%;
     }
     .discript3{
         position: absolute;
-        transform: translate(13%, 195vh);
+        transform: translate(13%, 182vh);
+        text-align: center;
+        margin: 0;
+        font-size: 1.2rem;
+        color: aliceblue;
+        width: 80%;
+    }
+    .vid4{
+        position: relative;
+        left: -85%;
+        top: 330%;
+        height: 40vh;
+        width: 170%;
+    }
+    .discript4{
+        position: absolute;
+        transform: translate(13%, 257vh);
         text-align: center;
         margin: 0;
         font-size: 1.2rem;
