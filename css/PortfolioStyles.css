@@ -296,13 +296,13 @@ nav a:active{
     .vid2{
         position: relative;
         left: -85%;
-        top: 138%;
+        top: 160%;
         height: 40vh;
         width: 170%;
     }
     .discript2{
         position: absolute;
-        transform: translate(13%, 110vh);
+        transform: translate(13%, 122vh);
         text-align: center;
         margin: 0;
         font-size: 1.2rem;
@@ -312,13 +312,13 @@ nav a:active{
     .vid3{
         position: relative;
         left: 15%;
-        top: 180%;
+        top: 220%;
         height: 40vh;
         width: 170%;
     }
     .discript3{
         position: absolute;
-        transform: translate(13%, 182vh);
+        transform: translate(13%, 202vh);
         text-align: center;
         margin: 0;
         font-size: 1.2rem;
@@ -328,13 +328,13 @@ nav a:active{
     .vid4{
         position: relative;
         left: -85%;
-        top: 330%;
+        top: 396%;
         height: 40vh;
         width: 170%;
     }
     .discript4{
         position: absolute;
-        transform: translate(13%, 257vh);
+        transform: translate(13%, 290vh);
         text-align: center;
         margin: 0;
         font-size: 1.2rem;
