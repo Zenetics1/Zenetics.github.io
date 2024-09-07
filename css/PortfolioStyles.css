@@ -73,18 +73,17 @@ nav .sidebar li:first-child
     text-align: left;
 }
 body{
-    min-height: 100vh;
+    min-height: 125vh;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
 }
 .main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-self: center;
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
     margin: 0;
-    height: 100vh;
     z-index: 1;
     width: 100%;
 }
@@ -95,38 +94,20 @@ body{
     padding-top: 30px;
     animation: fadeIn 5s;
 }
-.group1{
-    position: relative;
-    transform: translate(5%, 2%);
-    padding: 5%;
-    margin: 0;
-}
-.group2{
-    position: relative;
-    transform: translate(5%, 2%);
-    padding: 5%;
-    margin: 0;
-}.group3{
-    position: relative;
-    transform: translate(5%, 2%);
-    padding: 5%;
-    margin: 0;
-}
-.group4{
-    position: relative;
-    transform: translate(5%, 2%);
-    padding: 5%;
+.group{
+    transform: translateX(25%);
+    padding: 2%;
     margin: 0;
 }
 #vid{
     height: 450px;
-    width: 90%;
+    width: 50%;
     animation: fadeIn 4s;
 }
 #discript{
-    width: 85%;
-    margin-top: 2%;
+    width: 50%;
     text-align: center;
+    margin-top: 2%;
     font-size: 1.5rem; 
     color: aliceblue;
     animation: fadeIn 4s;
@@ -159,25 +140,7 @@ nav a:active{
         padding-top: 30px;
         animation: fadeIn 5s;
     }
-    .group1{
-        position: relative;
-        transform: translate(5%, 2%);
-        padding: 5%;
-        margin: 0;
-    }
-    .group2{
-        position: relative;
-        transform: translate(5%, 2%);
-        padding: 5%;
-        margin: 0;
-    }
-    .group3{
-        position: relative;
-        transform: translate(5%, 2%);
-        padding: 5%;
-        margin: 0;
-    }
-    .group4{
+    .group{
         position: relative;
         transform: translate(5%, 2%);
         padding: 5%;
@@ -212,40 +175,21 @@ nav a:active{
         color: aliceblue;
         padding-top: 30px;
     }
-    .group1{
-        position:absolute;
-        transform: translate(0, 0);
-        padding: 5%;
-        margin: 0;
-    }
-    .group2{
-        position:absolute;
-        transform: translate(0, 70vh);
-        padding: 5%;
-        margin: 0;
-    }
-    .group3{
-        position:absolute;
-        transform: translate(0, 130vh);
-        padding: 5%;
-        margin: 0;
-    }
-    .group4{
-        position:absolute;
-        transform: translate(0, 191vh);
-        padding: 5%;
+    .group{
+        transform: translateX(5%);
+        padding: 2%;
         margin: 0;
     }
     #vid{
-        height: 35vh;
-        width: 50vh;
+        height: 30vh;
+        width: 90%;
         animation: fadeIn 4s;
     }
     #discript{
-        width: 100%;
-        margin-top: 2%;
+        width: 90%;
         text-align: center;
-        font-size: 2vh; 
+        margin-top: 2%;
+        font-size: 1rem; 
         color: aliceblue;
         animation: fadeIn 4s;
     }
