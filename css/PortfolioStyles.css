@@ -213,39 +213,39 @@ nav a:active{
         padding-top: 30px;
     }
     .group1{
-        position: absolute;
-        transform: translate(5%, 0);
+        position:absolute;
+        transform: translate(0, 0);
         padding: 5%;
         margin: 0;
     }
     .group2{
-        position: absolute;
-        transform: translate(5%, 64vh);
+        position:absolute;
+        transform: translate(0, 70vh);
         padding: 5%;
         margin: 0;
     }
     .group3{
-        position: absolute;
-        transform: translate(5%, 135vh);
+        position:absolute;
+        transform: translate(0, 130vh);
         padding: 5%;
         margin: 0;
     }
     .group4{
-        position: absolute;
-        transform: translate(5%, 209vh);
+        position:absolute;
+        transform: translate(0, 191vh);
         padding: 5%;
         margin: 0;
     }
     #vid{
         height: 35vh;
-        width: 90%;
+        width: 50vh;
         animation: fadeIn 4s;
     }
     #discript{
-        width: 85%;
+        width: 100%;
         margin-top: 2%;
         text-align: center;
-        font-size: 2.5vh; 
+        font-size: 2vh; 
         color: aliceblue;
         animation: fadeIn 4s;
     }
