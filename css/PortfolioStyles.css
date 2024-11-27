@@ -96,7 +96,7 @@ body{
     animation: fadeIn 5s;
 }
 .group{
-    transform: translateX(25%);
+    transform: translateX(24%);
     padding: 2%;
     margin: 0;
 }
