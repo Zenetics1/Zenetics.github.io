@@ -87,6 +87,7 @@ body{
     height: 100vh;
     z-index: 1;
     width: 100%;
+    overflow-y: hidden;
 }
 .discript{
     display: grid;
